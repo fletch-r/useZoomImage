@@ -17,7 +17,9 @@
     "prepare": "dts build",
     "size": "size-limit",
     "start": "dts watch",
-    "test": "dts test --passWithNoTests"
+    "test": "dts test --passWithNoTests",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run ci && changeset publish"
   },
   "husky": {
     "hooks": {
@@ -50,6 +52,7 @@
     }
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@size-limit/preset-small-lib": "^8.2.6",
     "@tsconfig/recommended": "^1.0.2",
     "@tsconfig/vite-react": "^2.0.0",
