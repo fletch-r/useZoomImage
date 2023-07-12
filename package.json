@@ -1,8 +1,9 @@
 {
   "name": "usezoomimage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "0xATHERIS",
+  "author": "fletch-r",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/usezoomimage.esm.js",
   "typings": "dist/index.d.ts",
