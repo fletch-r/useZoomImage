@@ -1,5 +1,0 @@
----
-'usezoomimage': patch
----
-
-New README
