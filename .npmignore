@@ -1,0 +1,11 @@
+src/
+example/
+test/
+
+.changeset
+.github
+
+pnpm-lock.yaml
+package-lock.json
+
+tsconfig.json
