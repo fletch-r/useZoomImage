@@ -71,7 +71,6 @@ export function useZoomImage(show: boolean, options?: Options): UseZoomImageRetu
         ref={expandedImgRef}
         src={refSrc}
         alt={refAlt}
-        // className="rounded shadow-md fixed z-50 transition-[top] ease-in-out top-1/2 left-1/2"
         style={{
           width: `${refDimensions.width}px`,
           height: `${refDimensions.height}px`,
