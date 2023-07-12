@@ -4,7 +4,7 @@
 
 ## Example
 
-![BrowserExample](assets/browser_example.gif)
+![BrowserExample](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2h6MWxrdzUzYTgxcXM2ZnR3NTVsa20yeTRrOTJmNDFxajdhOWhkdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/v6Lzq7UKqY316Yh5b0/giphy.gif)
 
 ```jsx
 import { useZoomImage } from 'useZoomImage';
