@@ -4,9 +4,7 @@
 
 ## Example
 
-<div style="width: 80%; margin: 0 auto;">
-  <img src="./assets/browser_example.gif" alt="Example In Browser" />
-</div>
+![BrowserExample](assets/browser_example.gif)
 
 ```jsx
 import { useZoomImage } from 'useZoomImage';
