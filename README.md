@@ -1,6 +1,6 @@
 # useZoomImage
 
-### Expand images to full screen with cool animation
+### Expand images to full screen with smooth animation
 
 ## Example
 
