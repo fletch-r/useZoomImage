@@ -8,11 +8,10 @@
   "module": "dist/usezoomimage.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "scripts": {
-    "analyze": "size-limit --why",
+    "analyze": "size-limit",
     "build": "dts build",
     "lint": "dts lint --fix",
     "prepare": "dts build",

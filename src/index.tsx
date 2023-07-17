@@ -67,7 +67,7 @@ export function useZoomImage(show: boolean, options?: Options): UseZoomImageRetu
 
   const ExpandedImage: ExpandedImageProps = ({ backdropOnClick }) => (
     <>
-      <img
+      {show && <img
         ref={expandedImgRef}
         src={refSrc}
         alt={refAlt}
@@ -81,8 +81,8 @@ export function useZoomImage(show: boolean, options?: Options): UseZoomImageRetu
           top: '50%',
           left: '50%',
         }}
-      />
-      {options?.backdrop && (
+      />}
+      {show && options?.backdrop && (
         <div
           ref={backdropRef}
           style={{
