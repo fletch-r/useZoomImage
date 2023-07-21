@@ -17,8 +17,19 @@ function App() {
   return (
     <div>
 
-      <img ref={ref} src={PlaceholderImage} alt="Placeholder Image" onClick={() => setShowImage(true)} />
-      {showImage && <ExpandedImage backdropOnClick={() => setShowImage(false)} />}
+      <img
+        ref={ref}
+        src={PlaceholderImage}
+        alt="Placeholder Image"
+        width={450}
+        height={300}
+        onClick={() => setShowImage(true)}
+        style={{
+          cursor: 'pointer',
+          opacity: showImage ? 0 : 1
+        }}
+      />
+      <ExpandedImage backdropOnClick={() => setShowImage(false)} />
 
     </div>
   );
